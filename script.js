@@ -1,5 +1,6 @@
 function firstWord(s) {
   // your code here
+	s=s.trim();
 	let index=s.indexOf(" ");
 	if(index==-1){
 		return s;
