@@ -1,5 +1,10 @@
 function firstWord(s) {
   // your code here
+	let index=s.indexOf(" ");
+	if(index==-1){
+		return s;
+	}
+	return s.slice(0,index);
 }
 
 // Do not change the code below
